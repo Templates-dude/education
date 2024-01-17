@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone --depth=1 https://github.com/Templates-dude/inenter.git
+RUN git clone --depth=1 https://github.com/Templates-dude/iliketemplates.git
 
-WORKDIR /inenter
+WORKDIR /iliketemplates
 
 RUN npm install
 
